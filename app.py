@@ -1,9 +1,7 @@
 import logging
 import sys
 
-from flask import Flask
-from flask import request
-
+from flask import Flask, request
 from language_models import process_query
 
 app = Flask(__name__)
